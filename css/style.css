@@ -1,1 +1,79 @@
 @import url("header.css");
+span {
+  color: var(--lightgreen);
+}
+
+.work {
+  height: 100vh;
+  padding: 2.5rem 10%;
+}
+.work .work-title {
+  text-align: center;
+}
+.work .work-title h1 {
+  margin-top: 1rem;
+  font-size: var(--h1);
+  font-weight: 800;
+}
+.work .work-title p {
+  margin-top: 1rem;
+  font-size: var(--p);
+}
+.work .work-subtitle {
+  margin: 2.5rem 0;
+}
+.work .work-subtitle h1 {
+  font-size: var(--h1);
+  font-weight: 800;
+}
+.work .order {
+  order: 1;
+}
+.work .work-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5rem 0;
+}
+.work .work-flex .work-desc {
+  margin-left: 1rem;
+}
+.work .work-flex .work-desc h1 {
+  font-size: var(--h1);
+  font-weight: 800;
+}
+.work .work-flex .work-desc p {
+  font-size: var(--p);
+  margin-top: 1rem;
+}
+.work .work-flex .work-img img {
+  width: 40rem;
+  border-radius: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+@media (max-width: 800px) and (min-width: 501px) {
+  .work {
+    padding: 0 2rem;
+  }
+  .work .work-flex .work-desc {
+    margin: 0 1rem;
+  }
+  .work .work-flex .work-img img {
+    width: 25rem;
+  }
+}
+@media (max-width: 500px) {
+  .work {
+    padding: 0 2rem;
+  }
+  .work .work-flex {
+    display: block;
+  }
+  .work .work-flex .work-desc {
+    margin-bottom: 2rem;
+  }
+  .work .work-flex .work-img img {
+    width: 100%;
+  }
+}
