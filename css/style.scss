@@ -5,7 +5,7 @@ span {
 }
 
 .work {
-    height: 100vh;
+    height: 100%;
     padding: 2.5rem 10%;
 
     .work-title {
@@ -103,6 +103,220 @@ span {
 
                 img {
                     width: 100%;
+                }
+            }
+        }
+    }
+}
+
+.benefit {
+    height: 100vh;
+    padding: 5rem 10%;
+
+    .benefit-title {
+        text-align: center;
+
+        h1 {
+            margin-top: 1rem;
+            font-size: var(--h1);
+            font-weight: 800;
+        }
+
+        p {
+            margin-top: 1rem;
+            font-size: var(--p);
+        }
+    }
+
+    .benefit-flex {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        .benefit-one {
+            margin: 2.5rem 0;
+            line-height: 3rem;
+
+            i,p {
+                display: inline-flex;
+            }
+
+            i {
+                font-size: var(--p);
+                background-color: var(--lightgreen);
+                padding: .5rem .5rem;
+                border-radius: 50%;
+            }
+
+            p {
+                font-size: var(--p);
+                margin-left: 1rem;
+            }
+        }
+
+        .benefit-two {
+            margin: 2.5rem 0;
+            line-height: 3rem;
+
+            i,p {
+                display: inline-flex;
+            }
+
+            i {
+                font-size: var(--p);
+                background-color: var(--lightgreen);
+                padding: .5rem .5rem;
+                border-radius: 50%;
+            }
+
+            p {
+                font-size: var(--p);
+                margin-left: 1rem;
+            }
+        }
+
+        .benefit-three {
+            margin: 2.5rem 0;
+            line-height: 3rem;
+
+            i,p {
+                display: inline-flex;
+            }
+
+            i {
+                font-size: var(--p);
+                background-color: var(--lightgreen);
+                padding: .5rem .5rem;
+                border-radius: 50%;
+            }
+
+            p {
+                font-size: var(--p);
+                margin-left: 1rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .benefit {
+        height: 100%;
+
+        .benefit-flex {
+            display: block;
+            text-align: center;
+        }
+    }
+}
+
+.team {
+    padding: 5rem 10%;
+
+    .team-desc {
+        text-align: center;
+
+        h1 {
+            margin-top: 1rem;
+            font-size: var(--h1);
+            font-weight: 800;
+        }
+
+        p {
+            margin-top: 1rem;
+            font-size: var(--p);
+        }
+    }
+
+    .team-info {
+
+        .row {
+
+            .column {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+
+                .card {
+                    width: 20rem;
+                    margin: 5rem 0;
+                    padding-bottom: 2rem;
+                    text-align: center;
+                    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+                    border-radius: 20px;
+
+                    img {
+                        width: 100%;
+                    }
+
+                    h1 {
+                        margin-top: 1rem;
+                        font-size: var(--p);
+                        color: var(--navyblue);
+                        text-transform: uppercase;
+                        font-weight: 800;
+                    }
+
+                    p {
+                        margin-top: 1rem;
+                        font-weight: 500;
+                        color: var(--navyblue);
+                        font-size: var(--p);
+                    }
+
+                    .social-links {
+                        margin-top: 1rem;
+
+                        a {
+                            color: var(--navyblue);
+                            font-size: var(--a);
+                            margin: 0 1rem;
+                            transition: 0.5s ease;
+                        }
+
+                        a:hover {
+                            color: var(--lightgreen);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 800px) and (min-width: 501px) {
+    .team {
+        padding: 5rem 2rem;
+
+        .team-info {
+
+            .row {
+
+                .column {
+
+                    .card {
+                        width: 14rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .team {
+        padding: 5rem 2rem;
+
+        .team-info {
+
+            .row {
+                text-align: center;
+
+                .column {
+                    display: inline-block;
+
+                    .card {
+
+                    }
                 }
             }
         }
