@@ -180,6 +180,7 @@
   }
   .header .navbar.show .menu-list li a {
     margin-left: 0px;
+    font-size: var(--p);
   }
   .text-box {
     padding: 0 2rem;
