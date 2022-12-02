@@ -231,6 +231,7 @@ span {
     .team-info {
 
         .row {
+            
 
             .column {
                 display: flex;
@@ -244,6 +245,7 @@ span {
                     text-align: center;
                     justify-content: center;
                     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+                    border-radius: 20px;
                     width: 25rem;
                     padding: 1rem 1rem;
 
@@ -317,7 +319,7 @@ span {
                 align-items: center;
 
                 .column {
-                    display: block;
+                    width: 100%;
                 }
             }
         }

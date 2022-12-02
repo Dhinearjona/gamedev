@@ -102,7 +102,7 @@
   .footer .footer-desc .footer-about {
     height: auto;
     display: block;
-    padding: 1rem 1rem;
+    padding: 2rem 2rem;
   }
   .footer .footer-desc .footer-about p {
     width: 100%;
@@ -116,6 +116,7 @@
   .footer .footer-desc .foot {
     display: block;
     text-align: center;
+    padding: 2rem 2rem;
   }
   .footer .footer-desc .foot p {
     margin-bottom: 2rem;
