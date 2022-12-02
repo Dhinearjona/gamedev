@@ -236,12 +236,13 @@ span {
                 display: flex;
                 flex-wrap: wrap;
                 margin: 1rem 1rem;
-                justify-content: space-around;
+                justify-content: center;
                 align-items: center;
 
                 .card {
-                    margin: 1rem 0;
+                    margin: 1rem 1rem;
                     text-align: center;
+                    justify-content: center;
                     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
                     width: 25rem;
                     padding: 1rem 1rem;
@@ -340,11 +341,6 @@ span {
             font-size: var(--h1);
             font-weight: 800;
         }
-
-        p {
-            font-size: var(--p);
-            margin-top: 1rem;
-        }
     }
 
     .services-info {
@@ -361,7 +357,7 @@ span {
                 .card {
                     margin: 1rem 0;
                     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-                    width: 25rem;
+                    width: 50rem;
                     padding: 1rem 1rem;
 
                     img {

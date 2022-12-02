@@ -57,7 +57,7 @@
   transition: 0.5s ease;
 }
 .footer .footer-desc .footer-contact p:hover {
-  font-weight: 800;
+  font-weight: 700;
 }
 .footer .footer-desc .footer-contact i {
   color: var(--white);
@@ -72,6 +72,9 @@
   color: var(--white);
   font-size: var(--a);
 }
+.footer .footer-desc .foot b {
+  font-weight: 800;
+}
 .footer .footer-desc .foot a {
   color: var(--white);
   font-weight: 800;
@@ -82,9 +85,6 @@
   margin: 0 1rem;
   color: var(--white);
   transition: 0.5s ease;
-}
-.footer .footer-desc .foot .social a:hover {
-  font-weight: bolder;
 }
 
 @media (max-width: 768px) and (min-width: 501px) {
