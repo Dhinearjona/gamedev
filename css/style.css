@@ -22,10 +22,15 @@ span {
 }
 .work .work-subtitle {
   margin: 2.5rem 0;
+  text-align: center;
 }
 .work .work-subtitle h1 {
   font-size: var(--h1);
   font-weight: 800;
+}
+.work .work-subtitle p {
+  font-size: var(--p);
+  margin-top: 1rem;
 }
 .work .order {
   order: 1;
