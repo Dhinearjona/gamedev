@@ -42,7 +42,7 @@ span {
   margin: 5rem 0;
 }
 .work .work-flex .work-desc {
-  margin-left: 1rem;
+  margin: 0 1rem;
 }
 .work .work-flex .work-desc h1 {
   font-size: var(--h1);
