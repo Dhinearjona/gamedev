@@ -68,6 +68,9 @@ span {
   .work .work-flex .work-img img {
     width: 25rem;
   }
+  .work .work-flex .work-img video {
+    width: 30rem;
+  }
 }
 @media (max-width: 500px) {
   .work {
@@ -80,6 +83,9 @@ span {
     margin-bottom: 2rem;
   }
   .work .work-flex .work-img img {
+    width: 100%;
+  }
+  .work .work-flex .work-img video {
     width: 100%;
   }
 }
