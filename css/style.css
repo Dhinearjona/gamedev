@@ -253,7 +253,7 @@ span {
   }
 }
 .services {
-  padding: 3rem 5%;
+  padding: 5rem 10%;
   height: 130vh;
   width: 100%;
   background-image: url("/img/cover.png");
@@ -324,6 +324,10 @@ span {
 }
 .enjoy .enjoy-title button:hover {
   background-color: var(--lightgreen);
+}
+.enjoy .enjoy-title a {
+  color: var(--white);
+  text-decoration: none;
 }
 .enjoy .order {
   order: 1;

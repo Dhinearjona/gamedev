@@ -341,7 +341,7 @@ span {
 }
 
 .services {
-    padding: 3rem 5%;
+    padding: 5rem 10%;
     height: 130vh;
     width: 100%;
     background-image: url('/img/cover.png');
@@ -437,6 +437,11 @@ span {
 
         button:hover {
             background-color: var(--lightgreen);
+        }
+
+        a {
+            color: var(--white);
+            text-decoration: none;
         }
     }
 
