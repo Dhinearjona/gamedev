@@ -16,10 +16,6 @@ span {
   font-size: var(--h1);
   font-weight: 800;
 }
-.work .work-title p {
-  margin-top: 1rem;
-  font-size: var(--p);
-}
 .work .work-subtitle {
   margin: 2.5rem 0;
   text-align: center;
