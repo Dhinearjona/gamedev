@@ -383,6 +383,9 @@ span {
   .enjoy .enjoy-flex .enjoy-img img {
     width: 25rem;
   }
+  .enjoy .enjoy-flex .enjoy-img video {
+    width: 100%;
+  }
 }
 @media (max-width: 500px) {
   .enjoy {
@@ -396,6 +399,9 @@ span {
     margin-left: 0;
   }
   .enjoy .enjoy-flex .enjoy-img img {
+    width: 100%;
+  }
+  .enjoy .enjoy-flex .enjoy-img video {
     width: 100%;
   }
 }
